@@ -3,7 +3,7 @@ import theme from "./theme.js";
 
 
 export default defineUserConfig({
-  base: "/kdmvp_blog",
+  base: "/kdmvp_blog/",
 
   lang: "zh-CN",
   title: "kdmvp's\tblog",

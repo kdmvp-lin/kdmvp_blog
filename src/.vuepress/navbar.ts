@@ -15,7 +15,7 @@ export default navbar([
         children: [
           { text: "python笔记", icon: "pen-to-square", link: "Python_note" },
           { text: "计算机视觉", icon: "pen-to-square", link: "OpenCV_Pthon_note" },
-          
+
         ],
       },
       {
@@ -32,8 +32,7 @@ export default navbar([
         prefix: "java_note/",
         children: [
           { text: "java", icon: "pen-to-square", link: "Java_note" },
-          { text: "SpringBoot", icon: "pen-to-square", link: "SpringBoot" },
-          { text: "SpringBoot+Vue", icon: "pen-to-square", link: "SpringBoot+Vue" },
+          { text: "SpringBoot+Vue", icon: "pen-to-square", link: "SpringBoot_Vue" },
         ],
       },
       {
@@ -60,7 +59,7 @@ export default navbar([
           { text: "实习面试", icon: "pen-to-square", link: "interview" },
         ],
       },
-      
+
     ],
   },
   {

@@ -2,18 +2,18 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": [
-    
+    "intro",
     {
       text: "笔记",
       icon: "book",
       prefix: "posts/",
       children: "structure",
     },
-    "intro",
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-    },
+
+    // {
+    //   text: "幻灯片",
+    //   icon: "person-chalkboard",
+    //   link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
+    // },
   ],
 });
