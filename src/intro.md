@@ -13,6 +13,7 @@ sticky: true
 
 ## 基本信息
 <!-- markdown语法不会控制不知在这里使用html语法 -->
+
 <div style="display:inline-block">
 姓名：林伟强 &emsp;&emsp;&emsp; 性别：男
 
@@ -24,8 +25,9 @@ sticky: true
 </div>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 <div style="display:inline-block">
-    <img src="/assets/images/lwq.png" with="100" height="150"/>
+    <img :src="withBase(mepic)" with="100" height="150"/>
 </div>
+
 <!-- ![An image](/assets/images/lwq.png =100x150 ) -->
 
 ## 获奖经历
@@ -83,5 +85,10 @@ sticky: true
 
 
 
+<script setup>
+import { ref } from 'vue'
+import { withBase } from 'vuepress/client'
 
+const mepic = ref('/assets/images/lwq.png')
+</script>
 
