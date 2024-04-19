@@ -6,7 +6,7 @@ title: 博客主页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: kdmvp_blog
 heroFullScreen: true
-tagline: "本次更新为交通银行\t\t‘交银新星·浙里有你’\t\t初次活动介绍"
+tagline: "本次更新为交通银行\t\t‘交银新星·浙里有你’\t\t初次活动介绍。(可点击个人介绍查看详情)  "
 projects:
   - icon: project
     name: 项目仓库
