@@ -81,8 +81,35 @@ export default navbar([
     ],
   },
   {
-    text: "博客开发文档",
+    text: "AI工具",
     icon: "book",
+    children: [
+      {
+        text: "国外（需要vpn）",
+        children: [
+          { text: "ChatGPT", link: "https://openai.com/blog/chatgpt/" },
+          { text: "Claude 3", link: "https://www.anthropic.com/" },
+          { text: "Meta Llama 3", link: "https://ai.meta.com/" },
+          { text: "gemini", link: "https://deepmind.google/technologies/gemini/" },
+          { text: "huggingChat", link: "https://huggingface.co/chat/" },
+        ],
+      },
+      {
+        text: "国内",
+        children: [
+          { text: "kimi", link: "https://kimi.moonshot.cn/" },
+          { text: "文心一言", link: "https://yiyan.baidu.com/" },
+          { text: "讯飞星火", link: "https://xinghuo.xfyun.cn/" },
+          { text: "通义千问", link: "https://tongyi.aliyun.com/" },
+          { text: "AI工具箱", link: "https://www.phpcms9.com/" },
+        ],
+      },
+
+    ],
+  },
+  {
+    text: "博客开发文档",
     link: "https://theme-hope.vuejs.press/zh/",
   },
+
 ]);
