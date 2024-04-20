@@ -9,6 +9,24 @@ export default navbar([
     prefix: "/posts/",
     children: [
       {
+        text: "股票",
+        icon: "pen-to-square",
+        prefix: "stock/",
+        children: [
+          { text: "股票介绍", icon: "pen-to-square", link: "stock" },
+          { text: "股票技术性分析", icon: "pen-to-square", link: "Technical_analysis" },
+        ],
+      },
+      {
+        text: "基金",
+        icon: "pen-to-square",
+        prefix: "fund/",
+        children: [
+          { text: "基金介绍", icon: "pen-to-square", link: "fund" },
+
+        ],
+      },
+      {
         text: "python",
         icon: "pen-to-square",
         prefix: "python/",

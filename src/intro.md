@@ -6,7 +6,7 @@ category:
 tag: 
     - 介绍
 star: true
-sticky: true
+sticky: 99
 ---
 
 # 个人介绍 
